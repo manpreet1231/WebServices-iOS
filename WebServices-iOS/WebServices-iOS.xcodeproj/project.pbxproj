@@ -10,6 +10,7 @@
 		F52F5D2227DA6F38001DB1E4 /* dogDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F5D2127DA6F38001DB1E4 /* dogDetailCell.swift */; };
 		F52F5D2927DA74DE001DB1E4 /* previewImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F5D2827DA74DE001DB1E4 /* previewImageController.swift */; };
 		F52F5D2D27DA757D001DB1E4 /* DogApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F5D2C27DA757D001DB1E4 /* DogApiHelper.swift */; };
+		F52F5D3227DA763C001DB1E4 /* Activityindicatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F5D3127DA763C001DB1E4 /* Activityindicatior.swift */; };
 		F57F74C227D9E00300B2D1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F74C127D9E00300B2D1FC /* AppDelegate.swift */; };
 		F57F74C427D9E00300B2D1FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F74C327D9E00300B2D1FC /* SceneDelegate.swift */; };
 		F57F74C627D9E00300B2D1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F74C527D9E00300B2D1FC /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		F52F5D2127DA6F38001DB1E4 /* dogDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogDetailCell.swift; sourceTree = "<group>"; };
 		F52F5D2827DA74DE001DB1E4 /* previewImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewImageController.swift; sourceTree = "<group>"; };
 		F52F5D2C27DA757D001DB1E4 /* DogApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApiHelper.swift; sourceTree = "<group>"; };
+		F52F5D3127DA763C001DB1E4 /* Activityindicatior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activityindicatior.swift; sourceTree = "<group>"; };
 		F57F74BE27D9E00300B2D1FC /* WebServices-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebServices-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57F74C127D9E00300B2D1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F57F74C327D9E00300B2D1FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 			path = APIHelper;
 			sourceTree = "<group>";
 		};
+		F52F5D3027DA7624001DB1E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F52F5D3127DA763C001DB1E4 /* Activityindicatior.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F57F74B527D9E00300B2D1FC = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		F57F74C027D9E00300B2D1FC /* WebServices-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F52F5D3027DA7624001DB1E4 /* Components */,
 				F52F5D2B27DA751B001DB1E4 /* APIHelper */,
 				F52F5D2527DA6F8E001DB1E4 /* Cell */,
 				F52F5D2027DA6EF9001DB1E4 /* Controllers */,
@@ -175,6 +186,7 @@
 				F57F74C227D9E00300B2D1FC /* AppDelegate.swift in Sources */,
 				F52F5D2927DA74DE001DB1E4 /* previewImageController.swift in Sources */,
 				F57F74C427D9E00300B2D1FC /* SceneDelegate.swift in Sources */,
+				F52F5D3227DA763C001DB1E4 /* Activityindicatior.swift in Sources */,
 				F52F5D2227DA6F38001DB1E4 /* dogDetailCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
