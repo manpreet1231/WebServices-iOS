@@ -19,12 +19,25 @@ class previewImageController: UIViewController {
     var dImage : UIImage? =  nil
     
     @IBAction func btnReload(_ sender: Any) {
-      //  fetchInfo()
+        fetchInfo()
     }
  
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        configureUI()
     }
     
+    func configureUI(){
+        self.dogImage.image = dImage
+        dogImage.layer.cornerRadius = 8
+        lblDogName.text = dogBread?.uppercased()
+    }
+    
+    func fetchInfo(){
+        DogAPIHelpers.fetchBreedImage(breed: dogBread ?? ""){ [self]
+            breeds in
+            
+            self.dogImage.image = breeds
+        }
+    }
 }
