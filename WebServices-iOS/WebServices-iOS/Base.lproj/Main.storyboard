@@ -73,6 +73,10 @@
                                                 </tableViewCellContentView>
                                             </tableViewCell>
                                         </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="iPs-P0-Pwp" id="eaz-z5-oGd"/>
+                                            <outlet property="delegate" destination="iPs-P0-Pwp" id="eRm-F1-2TW"/>
+                                        </connections>
                                     </tableView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemFillColor"/>
