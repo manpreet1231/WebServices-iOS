@@ -71,6 +71,11 @@
                                                         <constraint firstAttribute="trailing" secondItem="6Nr-bk-Pyd" secondAttribute="trailing" constant="15" id="nDd-lx-TUz"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="containerView" destination="C68-Vt-irg" id="Ogt-b8-0Ff"/>
+                                                    <outlet property="imgDog" destination="PmP-JL-3mQ" id="9ET-J1-k4b"/>
+                                                    <outlet property="lblDogBreadName" destination="jSm-GL-TKl" id="Hgf-yi-Zq3"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                         <connections>
@@ -101,7 +106,7 @@
                     <connections>
                         <outlet property="containerView" destination="IQE-EK-JvK" id="MgH-NP-7qG"/>
                         <outlet property="tblDogsInfo" destination="KuK-GF-Glm" id="P22-9f-A8A"/>
-                        <segue destination="Qun-fO-8aP" kind="show" identifier="dogsDetail" id="bp4-r1-VG1"/>
+                        <segue destination="Qun-fO-8aP" kind="show" identifier="&quot;dogsDetail&quot;" id="bp4-r1-VG1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVL-hK-c8f" sceneMemberID="firstResponder"/>
