@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52F5D2227DA6F38001DB1E4 /* dogDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F5D2127DA6F38001DB1E4 /* dogDetailCell.swift */; };
 		F57F74C227D9E00300B2D1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F74C127D9E00300B2D1FC /* AppDelegate.swift */; };
 		F57F74C427D9E00300B2D1FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F74C327D9E00300B2D1FC /* SceneDelegate.swift */; };
 		F57F74C627D9E00300B2D1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F74C527D9E00300B2D1FC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F52F5D2127DA6F38001DB1E4 /* dogDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogDetailCell.swift; sourceTree = "<group>"; };
 		F57F74BE27D9E00300B2D1FC /* WebServices-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebServices-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57F74C127D9E00300B2D1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F57F74C327D9E00300B2D1FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F52F5D2027DA6EF9001DB1E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F57F74C527D9E00300B2D1FC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F52F5D2527DA6F8E001DB1E4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F52F5D2127DA6F38001DB1E4 /* dogDetailCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		F57F74B527D9E00300B2D1FC = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +74,10 @@
 		F57F74C027D9E00300B2D1FC /* WebServices-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F52F5D2527DA6F8E001DB1E4 /* Cell */,
+				F52F5D2027DA6EF9001DB1E4 /* Controllers */,
 				F57F74C127D9E00300B2D1FC /* AppDelegate.swift */,
 				F57F74C327D9E00300B2D1FC /* SceneDelegate.swift */,
-				F57F74C527D9E00300B2D1FC /* ViewController.swift */,
 				F57F74C727D9E00300B2D1FC /* Main.storyboard */,
 				F57F74CA27D9E00E00B2D1FC /* Assets.xcassets */,
 				F57F74CC27D9E00E00B2D1FC /* LaunchScreen.storyboard */,
@@ -140,6 +159,7 @@
 				F57F74C627D9E00300B2D1FC /* ViewController.swift in Sources */,
 				F57F74C227D9E00300B2D1FC /* AppDelegate.swift in Sources */,
 				F57F74C427D9E00300B2D1FC /* SceneDelegate.swift in Sources */,
+				F52F5D2227DA6F38001DB1E4 /* dogDetailCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
