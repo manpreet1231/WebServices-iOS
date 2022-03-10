@@ -163,6 +163,9 @@
                                         <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnReload:" destination="Qun-fO-8aP" eventType="touchUpInside" id="hHZ-MA-aC1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCo-Vu-Ghq">
                                 <rect key="frame" x="20" y="125" width="374" height="21"/>
@@ -187,7 +190,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="M2b-ij-6p1"/>
                     <connections>
-                        <outlet property="lblDogName" destination="aCo-Vu-Ghq" id="ld5-VA-l4W"/>
+                        <outlet property="dogImage" destination="kLl-mX-mtz" id="6OH-Yg-8FG"/>
+                        <outlet property="lblDogName" destination="aCo-Vu-Ghq" id="eiN-ba-LWt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qy9-AJ-TNS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -28,7 +28,8 @@ class ViewController: UIViewController {
         // Get a reference to the second view controller
         let secondViewController = segue.destination as! previewImageController
         // Set a variable in the second view controller with the" String to pass
-        
+        secondViewController.dogBread = valueToPass
+        secondViewController.dImage = valueToPassImage
     }
 }
 
