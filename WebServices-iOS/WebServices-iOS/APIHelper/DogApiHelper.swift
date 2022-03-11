@@ -1,22 +1,11 @@
-//
-//  DogApiHelper.swift
-//  WebServices-iOS
-//
-//  Created by Tajamal on 10/03/2022.
-//
 
 import Foundation
-
 import UIKit
 
 enum path: String{
     case allBreeds = "breeds/list/all"
     case randomImages = "/images/random"
 }
-
-
-//https://dog.ceo/api/breed/-------/images/random
-
 struct DogAPIHelpers {
     static private let baseURL = "https://dog.ceo/api/"
     
